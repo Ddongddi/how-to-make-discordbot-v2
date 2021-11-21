@@ -57,7 +57,7 @@ client.on('messageCreate', async message => {
             }
         ]
 
-        const commands = await client.guilds.cache.get('894179409752375306').commands.set(data)
+        const commands = await client.guilds.cache.get('서버_id').commands.set(data)
         console.log(commands)
     }
 })
